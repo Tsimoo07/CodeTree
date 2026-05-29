@@ -11,4 +11,4 @@ while True: #유클리드 호제법
         break
     mnum,mod = mod,mnum%mod
 
-print(n*m//mod)
+print(n*m//mod) # A*B = 최대공약수*최소공배수
