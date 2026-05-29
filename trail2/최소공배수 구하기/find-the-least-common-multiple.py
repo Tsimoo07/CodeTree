@@ -1,0 +1,14 @@
+n, m = map(int, input().split())
+
+# Please write your code here.
+mnum = n
+mod = m
+if m > n:
+    mnum = m
+    mod = n
+while True: #유클리드 호제법
+    if mnum % mod == 0:
+        break
+    mnum,mod = mod,mnum%mod
+
+print(n*m//mod)
