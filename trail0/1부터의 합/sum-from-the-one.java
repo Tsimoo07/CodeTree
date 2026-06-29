@@ -7,8 +7,7 @@ public class Main {
         int c = 0;
         int n = sc.nextInt();
         while (sum < n) {
-            c += 1;
-            sum += c;
+            sum += ++c;
         }
         System.out.println(c);
     }
