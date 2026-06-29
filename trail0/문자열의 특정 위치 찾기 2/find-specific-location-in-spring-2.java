@@ -4,9 +4,7 @@ public class Main {
         // Please write your code here.
         Scanner sc = new Scanner(System.in);
         String[] fruit = {"apple","banana","grape","blueberry","orange"};
-        String[] alp = {""};
-        alp[0] = sc.next();
-        char a = alp[0].charAt(0);
+        char a = sc.next().charAt(0);
         int c = 0;
         for (int i=0; i<5; i++) {
             if (a == fruit[i].charAt(2) || a == fruit[i].charAt(3)) {
